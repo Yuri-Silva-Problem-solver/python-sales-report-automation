@@ -12,6 +12,24 @@ It was designed to simulate a real business scenario where manual reporting is t
 
 ---
 
+## 🔄 Workflow
+
+```text
+📥 Excel File (.xlsx)
+        ↓
+⚙️ Data Processing (Pandas)
+        ↓
+📊 KPI Calculation
+(Revenue • Quantity • Ticket)
+        ↓
+🧾 HTML Email Generation
+        ↓
+📧 Gmail API إرسال
+        ↓
+✅ Email Sent Successfully
+```
+---
+
 ## ▶️ Execution Demo
 
 Below is a demonstration of the script running and sending the email automatically:
@@ -100,86 +118,3 @@ The system sends an email containing:
 All data is presented in structured HTML tables.
 
 ---
-
-## 🇧🇷 Português
-
-### 🚀 Visão Geral
-
-Este projeto automatiza a geração de relatórios de vendas e realiza o envio por email utilizando a API do Gmail.
-
-Foi desenvolvido simulando um cenário real de negócio, onde relatórios manuais consomem tempo e estão sujeitos a erros.
-
----
-
-### 💡 Problema Resolvido
-
-A criação manual de relatórios é demorada e propensa a falhas.
-
-Essa solução:
-
-* Elimina tarefas repetitivas
-* Reduz erros humanos
-* Gera insights de forma rápida e confiável
-
----
-
-### ⚙️ Funcionalidades
-
-* 📥 Leitura de dados via Excel
-* 📊 Faturamento por loja
-* 📦 Quantidade vendida
-* 💰 Cálculo de ticket médio
-* 📈 Ordenação automática (maior para menor)
-* 📧 Envio automático de email com tabelas HTML
-* 🔐 Autenticação segura via Gmail API (OAuth2)
-
----
-
-### 🔥 Destaques
-
-* Integração real com API (Gmail)
-* Automação ponta a ponta
-* Código limpo e organizado
-* Aplicação com foco em negócio
-
----
-
-### 🧠 Tecnologias Utilizadas
-
-* Python
-* Pandas
-* Gmail API
-* OAuth2
-* HTML
-
----
-
-### 📦 Instalação
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### ▶️ Execução
-
-```bash
-python main.py
-```
-
----
-
-### 🔐 Variáveis de Ambiente
-
-Crie um arquivo `.env`:
-
-```bash
-EMAIL_DESTINO=seuemail@gmail.com
-```
-
----
-
-## 👨‍💻 Author
-
-Yuri Silva
