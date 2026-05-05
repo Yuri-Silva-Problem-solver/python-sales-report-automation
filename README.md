@@ -12,6 +12,14 @@ It was designed to simulate a real business scenario where manual reporting is t
 
 ---
 
+## ▶️ Execution Demo
+
+Below is a demonstration of the script running and sending the email automatically:
+
+![Execution Demo](execution-demo.gif)
+
+---
+
 ### 💡 Problem Solved
 
 Manual sales reporting can take hours and is highly susceptible to mistakes.
